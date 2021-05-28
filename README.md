@@ -6,7 +6,7 @@ This addition shouldn't trigger CI if I do rebase merge on the PR?
 ## Tested
 
 * `[skip ci]` on [direct commit to master](https://github.com/koivunej/actions-testing-repo/commit/2c2825a094e729c104ca536425be6d5775b9fd44)
-* `[skip ci]` on [rebase merge"](https://github.com/koivunej/actions-testing-repo/pull/1)
+* `[skip ci]` on ["rebase merge"](https://github.com/koivunej/actions-testing-repo/pull/1)
     * did not run on PR nor the "rebase merge"
 * `[skip ci]` on [normal merge'd PR](https://github.com/koivunej/actions-testing-repo/pull/2)
     * did not run on PR
