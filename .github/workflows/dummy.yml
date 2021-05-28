@@ -1,0 +1,7 @@
+name: dummy
+on: [push]
+jobs:
+  check-bash-version:
+    runs-on: ubuntu-latest
+    steps:
+      - run: bash --version
